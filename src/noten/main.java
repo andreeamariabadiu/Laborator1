@@ -9,10 +9,10 @@ public class main {
         System.out.println("1. Nicht ausreichend: " +
                 Arrays.toString(NichtAusreichend.nichtAusreichend(noten)));
 
-        System.out.printf("2. Durchschnitt: %.2f\n", NotenDurchschnitt.durchschnitt(noten));
+        System.out.printf("2. Durchschnitt: %.2f\n", NotenDurchschnitt.berechneDurchschnitt(noten));
 
         System.out.println("3. Abgerundet: " +
-                Arrays.toString(NotenRunden.abgerundet(noten)));
+                Arrays.toString(NotenRunden.rundeNoten(noten)));
 
         System.out.println("4. Max abgerundet: " +
                 MaxAbgerundeteNote.maxAbgerundet(noten));
