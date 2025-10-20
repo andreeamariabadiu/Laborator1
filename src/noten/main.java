@@ -15,6 +15,6 @@ public class main {
                 Arrays.toString(NotenRunden.rundeNoten(noten)));
 
         System.out.println("4. Max abgerundet: " +
-                MaxAbgerundeteNote.maxAbgerundet(noten));
+                MaxAbgerundeteNote.findeMaxAbgerundeteNote(noten));
     }
 }
