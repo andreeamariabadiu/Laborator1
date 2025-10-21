@@ -1,4 +1,4 @@
-package noten;
+package Aufgabe1;
 
 public class NotenDurchschnitt {
     public static double berechneDurchschnitt(int[] noten) {
@@ -9,6 +9,6 @@ public class NotenDurchschnitt {
             summe += note;
         }
         double durchschnitt = summe / noten.length;
-        return Math.round(durchschnitt * 100.0) / 100.0; // auf 2 Dezimalstellen runden
+        return Math.round(durchschnitt * 100.0) / 100.0;
     }
 }
